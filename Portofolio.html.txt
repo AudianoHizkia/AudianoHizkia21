@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio Audiano Hizkia Mamoto</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 0; }
+    .container { max-width: 900px; background: white; margin: 30px auto; padding: 20px 40px; box-shadow: 0 0 10px #ccc; }
+    h1, h2 { color: #1a1a1a; }
+    hr { border: none; border-top: 1px solid #eee; margin: 20px 0; }
+    p, ul { color: #333; line-height: 1.4; }
+    ul { padding-left: 20px; }
+    a { color: #2a75f3; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    form label { display: block; margin: 12px 0 4px; }
+    form input, form textarea { width: 100%; padding: 8px; box-sizing: border-box; }
+    form button { margin-top: 15px; padding: 10px 20px; background-color: #2a75f3; border: none; color: white; cursor: pointer; }
+    form button:hover { background-color: #225bb5; }
+    footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #777; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Audiano Hizkia Mamoto</h1>
+      <p>Email: <a href="mailto:audianohizkia@gmail.com">audianohizkia@gmail.com</a> | Telp: +6282346366235</p>
+      <p>Desa Tombasian Atas Satu, Minahasa</p>
+    </header>
+    <hr />
+    <section id="tentang-saya">
+      <h2>Tentang Saya</h2>
+      <p>Sarjana dari Universitas Negeri Manado dengan predikat Cum Laude (IPK 3.88). Memiliki keahlian dalam manajemen data, koordinasi tim, verifikasi dokumen, serta penguasaan Microsoft Office dan berbagai aplikasi pendukung operasional.</p>
+    </section>
+    <section id="pengalaman-kerja">
+      <h2>Pengalaman Kerja</h2>
+      <ul>
+        <li><strong>Admin Operasional</strong> - Ostrava Musik Enterteiment, Manado
+          <ul>
+            <li>Koordinasi jadwal dan aktivitas tim operasional guna mencapai target.</li>
+            <li>Input dan verifikasi data administratif perusahaan secara akurat.</li>
+          </ul>
+        </li>
+        <li><strong>Admin Operasional Pencairan</strong> - Bank Tabungan Pensiunan Nasional, Manado
+          <ul>
+            <li>Mengelola proses administrasi pencairan dana sesuai prosedur.</li>
+            <li>Verifikasi dokumen sebelum pencairan.</li>
+          </ul>
+        </li>
+        <li><strong>Manager Enterteiment</strong> - Ostrava Music Enterteiment, Manado
+          <ul>
+            <li>Merancang konsep dan strategi pengembangan program hiburan.</li>
+          </ul>
+        </li>
+        <li><strong>Manager Operasional Enterteiment</strong> - Tumawoi Event Organizer, Manado
+          <ul>
+            <li>Mengawasi dan mengoordinasikan tim selama event berlangsung.</li>
+            <li>Merancang strategi pemasaran untuk peningkatan kunjungan dan pendapatan.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="keahlian">
+      <h2>Keahlian</h2>
+      <ul>
+        <li>Microsoft Office</li>
+        <li>Manajemen Data & Koordinasi Tim</li>
+        <li>Verifikasi Dokumen</li>
+        <li>Penguasaan aplikasi operasional</li>
+      </ul>
+    </section>
+    <section id="pendidikan">
+      <h2>Pendidikan</h2>
+      <p>Universitas Negeri Manado — Sarjana, Cum Laude (IPK 3.88)</p>
+    </section>
+    <section id="kontak">
+      <h2>Kontak</h2>
+      <form action="mailto:audianohizkia@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required />
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Kirim</button>
+      </form>
+      <p>Atau hubungi langsung via email: <a href="mailto:audianohizkia@gmail.com">audianohizkia@gmail.com</a></p>
+    </section>
+    <footer>
+      &copy; 2025 Audiano Hizkia Mamoto
+    </footer>
+  </div>
+</body>
+</html>
